@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 
-class NuberProductsAdapter(private val list: List<Salad>)
+class NuberProductsAdapter( private val list: List<Salad>)
     : RecyclerView.Adapter<SaladViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SaladViewHolder {
